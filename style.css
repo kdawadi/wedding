@@ -1,0 +1,260 @@
+body {
+	background: #508F8B; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #508F8B, #93D9C3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #508F8B, #93D9C3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #508F8B, #93D9C3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #508F8B, #93D9C3); /* Standard syntax (must be last) */
+    background-position: center;
+}
+
+#main-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	position: relative;
+	background: #fff;
+}
+
+#main1{
+	height: 600px;
+	width: 1200px;
+	color: #07847D;
+	text-align: center;
+	font: serif;
+	font-weight: bold;
+	background: url("wedding.jpg");
+	background-size: cover;
+
+}
+
+#header1 {
+	height: 100px;
+}
+
+#start h1 {
+	font: serif;
+	font-weight: bold;
+}
+
+#header1 img {
+	float: left;
+}
+#menu1 {
+	padding-top: 30px;
+	float: right;
+}
+
+#menu2 {
+	padding-top: 20px;
+}
+.main-nav ul {
+		margin: 0;
+		text-indent: 0;
+}
+.main-nav li a,
+.main-nav li {
+		display: inline-block;
+		/*text-decoration: none;*/
+
+}
+.main-nav li a {
+		border-bottom: 0;
+		color: #076F58;
+		line-height: 3.6;
+		text-transform: uppercase;
+		font-weight: bold;
+}
+.main-nav li a:hover{
+		color: #000;
+		/*text-decoration: underline;*/
+}
+.main-nav li {
+		margin: 0 20px 0 0;
+		position: relative;
+		margin-left: 10px;
+}
+
+
+#start {
+	height: 300px;
+	clear: left;
+	padding-top: 50px;
+}
+
+#start h1, #header2 h1, #header3 h1, #header4 h1, #header4 p, #header5 h1, #header5 p , #header6 h1, #header6 p  {
+	text-transform: uppercase;
+}
+
+#main2 {
+	height: 600px;
+	width: 1200px;
+	text-align: center;
+	color: #464444;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#header2 {
+	height: 150px;
+}
+
+#imag {
+	height: 200px;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.im {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#para {
+	clear: left;
+}
+
+#main3 {
+	height: 700px;
+	background-color: #4BB6B9;
+	color: white;
+	font: serif;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+#header3 {
+	height: 200px;
+	width:500px;
+	margin: auto;
+}
+
+#main3-body {
+	height: 400px;
+}
+
+#main4 {
+	width: 1200px;
+	text-align: center;
+	color: #464444;
+}
+
+#header4 {
+	height: 150px;
+	padding-top: 20px;
+}
+
+#main4-body {
+	width: 700px;
+	text-align: center;
+	overflow: auto;
+	height: 700px;
+	margin: auto;
+}
+
+.ima {
+	width: 320px;
+	height: 220px;
+	float: left;
+	padding-left: 20px;
+}
+
+#main5 {
+	width: 1200;
+	height: 620px;
+	text-align: center;
+	background-color: #CCECEF;
+}
+
+#header5 {
+	height: 150px;
+	padding-top: 20px;
+}
+
+#main5-body {
+	width: 800px;
+	height: 470px;
+	margin: auto;
+}
+
+.body {
+	width: 250px;
+	height: 400px;
+	float: left;
+	padding: 10px;
+	
+}
+
+#main6 {
+	height: 550px;
+	width: 1200px;
+	text-align: center;
+}
+
+#header6 {
+	height: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#main6-body {
+	height: 400px;
+}
+
+#main7 {
+	height: 500px;
+	width: 1200px;
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding: 30px;
+}
+
+#body1 {
+	float: left;
+	width: 40%;
+	text-align: left;
+	padding: 30px;
+	padding-left: 40px;
+
+}
+
+#body2{
+	float: right;
+	width: 20%;
+	padding: 30px;
+
+}
+#body3{
+	float: right;
+	width: 20%;
+	padding: 30px;
+
+}
+
+#body2 a, #body3 a, #body2 li, #body3 li {
+	display: block;
+}
+
+#foot {
+	clear: both;
+	height: 100px;
+	text-align: right;
+	width: 1100px;
+	border-top-color: #D0CCCC;
+	border-width: 0.5px;
+	border-style:  solid;
+	border-left: hidden;
+	border-right: hidden;
+	border-bottom: hidden;
+
+}
+
+#body1 h2, #body2 h2, #body3 h2 {
+	font: 14px;
+}
